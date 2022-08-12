@@ -5,8 +5,12 @@
     height: 700px;
     width: 900px;
     display: grid;
-    grid-template-rows: 133px 133px 133px;
-    grid-template-columns: 133px 133px 133px;
+    /* grid-template-rows: 133px 133px 133px;
+    grid-template-columns: 133px 133px 133px; */
+    /* grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); */
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     row-gap: 20px;
     column-gap: 20px;
 }
@@ -14,6 +18,6 @@
 /* This is the item here I am going to define that how my item would look like. */
 .item{
     background-color: pink;
-    height: 122px;
-    width: 122px;
+    /* height: 122px;
+    width: 122px; */
 }

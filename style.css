@@ -1,0 +1,19 @@
+/* This is the container css which will defie our container */
+.container{
+    margin-top: 20px;
+    background-color: red;
+    height: 700px;
+    width: 900px;
+    display: grid;
+    grid-template-rows: 133px 133px 133px;
+    grid-template-columns: 133px 133px 133px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+/* This is the item here I am going to define that how my item would look like. */
+.item{
+    background-color: pink;
+    height: 122px;
+    width: 122px;
+}

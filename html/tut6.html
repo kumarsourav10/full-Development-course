@@ -1,37 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
-</head>
-<body>
-        <h2>This is HTML forms tutorial</h2>
-        <form action="backend.php">
-            <div>
-                Name: <input type="text" name="myName">
-            </div>
-            <br>
-            <div>
-                Role: <input type="Role">
-            </div>
-            <br>
-            <div>
-                Email: <input type="email" name="myEmail" >
-            </div>
-            <br>
-            <div>
-                Date : <input type="date" name="datetime">
-            </div>
-            <br>
-            <div>
-                Submit : <input type="submit" value="Submit Now">
-            </div>
-            <br>
-            <div>
-                Reset : <input type="reset" value="reset Now">
-            </div>
-        </form>
-</body>
+  </head>
+  <body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+      <label for="Name">Name</label>
+      <div>
+        <input type="text" name="myName" id="Name" />
+      </div>
+      <br />
+      <label for="Role">Role</label>
+      <div>
+        <input type="Role" id="Role" />
+      </div>
+      <br />
+      <label for=" Email"> Email</label>
+      <div>
+        <input type="email" name="myEmail" id=" Email" />
+      </div>
+      <br />
+      <label for="Date">Date</label>
+      <div>
+        <input type="date" name="datetime" id="Date" />
+      </div>
+      <br />
+      <label for="Are you Eligible">Are you Eligible</label>
+      <div>
+        yes <input type="radio" name="Eligible" /> No
+        <input type="radio" name="Eligible" checked />
+      </div>
+      <br />
+      <div>
+        Gender: <br /><br />
+        Male <input type="radio" name="MyGender" />Female<input
+          type="radio"
+          name="MyGender"
+        />Other<input type="radio" name="MyGender" />
+      </div>
+      <div>
+        Write about yourself: <br /><textarea
+          name="myText"
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <br />
+      <label for="Submit">Gender</label>
+      <div>
+        <input type="submit" value="Submit Now" id="Submit" />
+
+        Reset : <input type="reset" value="reset Now" />
+      </div>
+      <br />
+      <div>
+        <label for="car">Car</label>
+        <select name="myCar" id="car">
+            <option value="Indica" selected>Indica</option>
+            <option value="Honda" >Honda</option>
+        </select>
+      </div>
+    </form>
+  </body>
 </html>

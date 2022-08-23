@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Tutorial</title>
+    <!-- First you have to linked your css folder or file with html like this  -->
+    <link rel="stylesheet" href="../css/tut13.css">
+    <!-- the above one is external css link -->
 </head>
+
 <style>
+    /* This is enternal css */
     p{
         color: purple;
         background-color: aqua;
     }
 </style>
+<!-- Code which is written overlapping the previous code that will impact on your code 
+for example if I drag down my external link below enternal css so in that case my external css will impact on my css
+but as usual there is a exception case if you add {!important} after the code then it will given importance by html so it is not valuable after putting !important it woun't be matter either it is written below or above -->
 <body>
     <h2> This is CSS Tutorial</h2>
     <p>This Tutorial will teach you everything you need yo know about HTML/CSS</p>

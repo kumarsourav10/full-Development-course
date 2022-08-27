@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+
+    /* this * is universal style in css whatever valuw you give it will set to each and every element */
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(246, 223, 246);
+        }
+            .container{
+                background-color: rgb(48 112 93);
+                border: 3px solid rgb(32, 18, 18);
+                padding: 8px;
+                margin: 34px;
+                color: rgb(228, 164, 86);
+                
+                /* You can set the padding/margin seprate 
+                padding-top: 30px;
+                padding-bottom: 40px;
+                padding-left: 50px;
+                padding-right: 40px;*/
+
+
+                /* You can set the padding in on line see below line  {Top, Right, bottm left this is fixed} on line*/
+                /* padding: 80px 90px 60px 70px; */
+
+                /* You can seperate top/Bottom , Right/ left */
+                 padding: 54px 44px;/* padding: y(Top/Botto,); x(right/left) */
+                 margin: 10px 10px;
+                 border-radius: 23px;
+                 width: 250px;
+                 box-sizing: border-box;
+                 width: 450px;
+            }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <h1>This is my heading</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque reprehenderit provident voluptatum sequi magni, quia quam laudantium consequatur itaque aliquam, voluptas sed magnam accusamus labore tempora iusto dolorem! Velit!</p>
+        </div>
+        <div class="container">
+            <h1>This is my heading</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque reprehenderit provident voluptatum sequi magni, quia quam laudantium consequatur itaque aliquam, voluptas sed magnam accusamus labore tempora iusto dolorem! Velit!</p>
+        </div>
+        <div class="container">
+            <h1>This is my heading</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque reprehenderit provident voluptatum sequi magni, quia quam laudantium consequatur itaque aliquam, voluptas sed magnam accusamus labore tempora iusto dolorem! Velit!</p>
+        </div>
+</body>
+</html>

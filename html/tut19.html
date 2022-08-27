@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Selectors & more designing</title>
+    <style>
+      .container {
+        border: 2px solid red;
+        background-color: antiquewhite;
+        /* margin: auto; */
+        padding: 34px;
+        margin: 34px auto;
+        width: 666px;
+      }
+      a{
+        text-decoration: none;
+      }
+      a:hover{
+        color: rgb(138, 138, 27);
+        background-color: aliceblue;
+      }
+      a:visited{
+        background-color: aqua;
+      }
+      a:active{
+        background-color: darkcyan;
+      }
+      .btn{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: crimson;
+            font-weight: bold;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+      }
+      .btn:hover{
+        color: darkgoldenrod;
+        background-color: rgb(223, 245, 201);
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="cont1">
+      <h3>This is my Heading</h3>
+      <p>
+        lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore impedit
+        modi sunt cupiditate sit voluptate eum nobis vitae dolor officia? Ex
+        laudantium ipsum voluptatibus voluptatem libero. Atque distinctio ad
+        voluptate.
+      </p>
+      <a href="https://yahoo.com" class="btn">Read more</a>
+      <button class="btn">Contact us</button>
+    </div>
+  </body>
+</html>

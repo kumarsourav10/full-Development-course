@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('../gym.jpg');
+    height: 4000px ;
+    color: wheat;
+    
+  } 
+
+  .left {
+    border: 2px solid black;
+    display: inline-block;
+    left: 16px;
+    position: absolute;
+    top: 8px;
+  }
+
+  .left img {
+         width: 135px;
+  }
+
+  .mid {
+    display: block;
+    width: 33%;
+    margin:12px auto;
+    border: 2px solid white;
+    top: 0px;
+  }
+
+  .right {
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    right: 16px;
+    top: 8px;
+    border: 2px solid yellowgreen;
+  }
+
+  .navbar{
+    display: inline-block;
+  }
+  
+  .navbar li {
+    display: inline-block;
+  }
+  .navbar li a {
+    color: beige;
+    text-decoration: none;
+    padding: 15px;
+  }

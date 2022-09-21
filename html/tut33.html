@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after Psuedo selectors</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: black;
+                color: aliceblue;
+                background: url('https://source.unsplash.com/collection/190727/1600*900') no-repeat center center;
+            }
+            section{
+                height: 250px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 15px;
+                justify-content: center;
+            }
+             h3{
+                 font-size: 4rem;
+                 font-family: 'Bree Serif', serif;
+             }
+            li {
+                 list-style: none;;
+                 padding: 10px 15px;
+            }
+            .navigation{
+                font-family: 'Bree Serif', serif;
+                display: flex;
+            }
+            /* section::after{
+                content: "this is a content";
+            } */
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact US</li>
+            </ul>
+        </nav>
+    </header>
+        <section>
+            <h3>Welcome to coding world</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque veritatis reprehenderit tenetur explicabo asperiores possimus nemo pariatur rerum, odio aliquam eius doloribus architecto temporibus corporis nam est natus culpa! Cumque ex perspiciatis iusto? Exercitationem laborum dicta similique perferendis repellendus optio officia dolores, ipsam beatae.</p>
+        </section>
+        <hr>
+</body>
+</html>
